@@ -1,0 +1,61 @@
+<!doctype html>
+
+<!-- If multi-language site, reconsider usage of html lang declaration here. -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>EPL Football | Login</title>
+
+  <!-- Place favicon.ico in the root directory: mathiasbynens.be/notes/touch-icons -->
+  <link rel="shortcut icon" href="favicon.ico" />
+
+  <!--font-awesome link for icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+  <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
+  <link rel="stylesheet" media="screen" href="assets/css/style.css">
+
+</head>
+
+<body>
+  <!--container start-->
+  <div class="container">
+    <!--main section start-->
+    <main>
+      <!-- Login form start -->
+      <section class="login">
+        <div class="wrapper">
+          <div class="log-card">
+            <div class="log-logo">
+              <h2><span>EPL</span> Football</h2>
+              <span>English Premier League Football</span>
+            </div>
+            <form action="post">
+              <div>
+                <input type="text" name="username" class="username">
+                <span class="user-err"></span>
+              </div>
+              <div>
+                <input type="password" name="password" class="password">
+                <span class="pass-err"></span>
+              </div>
+              <button class="submit">Login</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- login form end -->
+    </main>
+    <!--main section end-->
+  </div>
+  <!--container end-->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
